@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Diet Cheater Sign-Up</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../public/assets/css/main.css" />
+	<link rel="shortcut icon" href="../public/assets/images/favicon.ico" type="favicon/image">
+</head>
+
+<body class="subpage">
+
+	<!-- Header -->
+	<header id="header">
+		<nav class="left">
+			<a href="#menu">
+				<span>Menu</span>
+			</a>
+		</nav>
+		<a href="/" class="logo">Diet Cheater</a>
+	</header>
+
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			<li>
+				<a href="/">Home</a>
+			</li>
+			<li>
+				<a href="/dashboard">Diet Checklist</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- Main -->
+	<section id="main" class="wrapper">
+		<div class="inner">
+			<header class="align-center">
+				<h1>Sign-Up Form</h1>
+				<p>You are almost where you need to be on your health journey!</p>
+			</header>
+
+			<!-- Signup Input Form -->
+			<form method="post" action="#">
+				<div class="row uniform">
+					<div class="6u 12u$(small)">
+						<h4>First Name</h4>
+						<input type="text" name="name" id="name" value="" placeholder="First Name" autocomplete="given-name" />
+					</div>
+					<!-- Break -->
+					<div class="6u 12u$(small)">
+						<h4>Last Name</h4>
+						<input type="text" name="lastname" id="lastname" value="" placeholder="Last Name" autocomplete="family-name" />
+					</div>
+					<!-- Break -->
+					<div class="12u$">
+						<h4>User ID (Not Email)</h4>
+						<input type="text" name="username" id="username" value="" placeholder="username" autocomplete="username" />
+					</div>
+					<!-- Break -->
+					<div class="4u 12u$(small)" name="gender[gvalue]" id="gvalue">
+						<h4>Gender</h4>
+						<select name="gender">
+							<option value="1">Female</option>
+							<option value="2">Male</option>
+							<option value="3">Prefer not to answer</option>
+						</select>
+					</div>
+					<!-- Break -->
+					<div class="4u 12u$(small)">
+						<h4>Weight (lbs)</h4>
+						<input type="text" name="weight" id="weight" value="" placeholder="Weight (lbs)" />
+					</div>
+					<!-- Break -->
+					<div class="4u 12u$(small)">
+						<h4>Height (in)</h4>
+						<input type="text" name="height" id="height" value="" placeholder="Height (Total in Inches)" />
+					</div>
+					<!-- Break -->
+					<div class="6u 12u$(small)">
+						<h4>Email Address</h4>
+						<input type="email" name="email" id="email" value="" placeholder="Enter Email" autocomplete="email" />
+					</div>
+					<!-- Break -->
+					<div class="6u 12u$(small)">
+						<h4>Password</h4>
+						<input type="password" name="password" id="password" value="" placeholder="Password" autocomplete="current-password" />
+					</div>
+					<!-- Break -->
+					<div class="6u 12u$(small)">
+						<input type="checkbox" id="copy" name="copy">
+						<label for="copy">Email me a copy of this message</label>
+					</div>
+					<!-- Break -->
+					<div class="6u$ 12u$(small)">
+						<input type="checkbox" id="human" name="human" checked>
+						<label for="human">I am a human and not a robot</label>
+					</div>
+					<!-- Break -->
+					<div class="12u$">
+						<ul class="actions">
+							<li>
+								<input type="submit" value="SUBMIT" />
+							</li>
+							<li>
+								<input type="reset" value="Reset" class="alt" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</form>
+			<hr />
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<h2>Get In Touch</h2>
+			<ul class="actions">
+				<li>
+					<span class="icon fa-phone"></span>
+					<a href="#">(480) 911-911</a>
+				</li>
+				<li>
+					<span class="icon fa-envelope"></span>
+					<a href="#">Contact@DietCheater.com</a>
+				</li>
+				<li>
+					<span class="icon fa-map-marker"></span> 1428 North Genesee Avenue, Phoenix, AZ 85226</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			&copy;
+			<a href="/"> Diet Cheater</a>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="../public/assets/js/jquery.min.js"></script>
+	<script src="../public/assets/js/jquery.scrolly.min.js"></script>
+	<script src="../public/assets/js/skel.min.js"></script>
+	<script src="../public/assets/js/util.js"></script>
+	<script src="../public/assets/js/main.js"></script>
+</body>
+
+</html>

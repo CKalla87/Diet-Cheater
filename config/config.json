@@ -1,0 +1,39 @@
+{
+  "development": {
+    "username": "root",
+
+    "password": "",
+
+    "database": "dietCheater2_db",
+
+    "host": "127.0.0.1",
+
+    "dialect": "mysql"
+  },
+
+  "test": {
+    "username": "",
+
+    "password": null,
+
+    "database": "",
+
+    "host": "",
+
+    "dialect": "mysql"
+  },
+
+  "production": {
+    "username": "sny8jmoynnylh75n",
+
+    "password": "drpry3muura97zvd",
+
+    "database": "hknrlec1upjfkzzb",
+
+    "host": "nuskkyrsgmn5rw8c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    
+    "use_env_variable": "JAWSDB_URL",
+
+    "dialect": "mysql"
+  }
+}

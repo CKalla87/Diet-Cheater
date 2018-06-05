@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Diet Cheater Check-List</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="../public/assets/css/sweetalert2/dist/sweetalert2.min.js"></script>
+	<link rel="stylesheet" href="../public/assets/css/sweetalert2/dist/sweetalert2.min.css">
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="favicon/image">
+</head>
+
+<body class="subpage">
+	<!-- Header -->
+	<!-- Header -->
+	<header id="header">
+		<nav class="left">
+			<a href="#menu">
+				<span>Menu</span>
+			</a>
+		</nav>
+		<a href="/" class="logo">Diet Cheater</a>
+	</header>
+
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			<li>
+				<a href="/">Home</a>
+			</li>
+			<li>
+				<a href="dashboard">Diet Checklist</a>
+			</li>
+		</ul>
+		<ul class="actions vertical">
+			<li>
+				<a href="/" class="button fit">Logout</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- Main -->
+	<section id="main" class="wrapper">
+		<div class="inner">
+			<header class="align-center">
+				<h1>Food Calorie Checklist</h1>
+				<p>Your Suggested Fitness And Nutrition Goals </p>
+			</header>
+
+			<!-- Blockquote -->
+			<h3>Food For Thought</h3>
+			<blockquote>Congratulations! Your personalized diet and fitness profile is now complete. Based on your answers, here are your suggested
+				nutrition and fitness goals.</blockquote>
+
+			<!-- API APP Input Search-->
+			<h3>Search</h3>
+			<form method="post" action="#">
+				<div class="row uniform">
+					<!-- Break -->
+					<div class="12u$">
+						<input type="text" name="search" id="search" value="" placeholder="Enter your cheat meal" autocomplete="off" />
+					</div>
+
+					<div class="12u$">
+						<ul name="category" id="result">
+
+						</ul>
+					</div>
+
+					<!--<ul class="actions">
+						<li>
+							<input type="submit" value="FOOD SEARCH" />
+						</li>
+						<li>
+							<input type="reset" value="Reset" class="alt" />
+						</li>
+					</ul>-->
+				</div>
+			</form>
+			<h3 id="error"></h3>
+
+		</div>
+
+		<!-- Table -->
+		<div class="inner">
+			<h3>Diet Cheater Calculator</h3>
+			<h4>Results</h4>
+			<div class="table-wrapper">
+				<table>
+					<thead>
+						<tr>
+							<th>Cheat Meal</th>
+							<th>Calories</th>
+							<th>Sugar (gr)</th>
+							<th>Fat (gr)</th>
+							<th>Carbs (gr)</th>
+							<th># of Burpees</th>
+							<th># of PushUps</th>
+							<th># of Squats</th>
+							<th># Pull Ups</th>
+							<th># Squat Jumps</th>
+						</tr>
+					</thead>
+					<tbody >
+						<tr id="results-2">
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+
+		<hr />
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<h2>Get In Touch</h2>
+			<ul class="actions">
+				<li>
+					<span class="icon fa-phone"></span>
+					<a href="#">(480) 911-911</a>
+				</li>
+				<li>
+					<span class="icon fa-envelope"></span>
+					<a href="#">Contact@DietCheater.com</a>
+				</li>
+				<li>
+					<span class="icon fa-map-marker"></span> 1428 North Genesee Avenue, Phoenix, AZ 85226</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			&copy;
+			<a href="/"> Diet Cheater</a>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<!-- Latest compiled and minified CSS -->
+
+
+	<script src="../public/assets/js/jquery.min.js"></script>
+	<script src="../public/assets/js/jquery.scrolly.min.js"></script>
+	<script src="../public/assets/js/skel.min.js"></script>
+	<script src="../public/assets/js/util.js"></script>
+	<script src="../public/assets/js/main.js"></script>
+	<script src="../public/assets/css/sweetalert2/dist/sweetalert2.all.min.js"></script>
+	<!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+	<script src="https://unpkg.com/promise-polyfill"></script>
+	<script type="text/javascript" src="/assets/js/action.js"></script>
+</body>
+
+</html>
