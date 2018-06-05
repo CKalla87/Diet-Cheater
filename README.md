@@ -29,6 +29,8 @@ Instructions:
 
 9. Your login information will always be saved for future use.
 
+10. Follow the link to our video instrucitons for further help on how to use the application: https://drive.google.com/file/d/1uCH8LqU95AlnXei7v-j1G-sEGiioghJu/view
+
 Thank you and enjoy!
 
 -Creators Of Diet Cheater
